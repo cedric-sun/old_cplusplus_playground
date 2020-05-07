@@ -1,0 +1,1 @@
+add_executable(default_dtor.cc default_dtor.cc)

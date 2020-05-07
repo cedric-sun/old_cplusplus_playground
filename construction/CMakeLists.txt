@@ -1,0 +1,3 @@
+add_executable(default_ctor default_ctor.cc)
+add_executable(deleted_default_ctor deleted_default_ctor.cc)
+add_executable(member_init member_ctor_called.cc)
