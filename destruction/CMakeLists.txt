@@ -1,1 +1,2 @@
-add_executable(default_dtor.cc default_dtor.cc)
+add_executable(default_dtor default_dtor.cc)
+add_executable(protected_dtor protected_dtor.cc)

@@ -1,0 +1,1 @@
+add_executable(scoped_unscoped scoped_unscoped.cc)

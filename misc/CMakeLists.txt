@@ -1,0 +1,6 @@
+add_executable(default_param default_param.cc)
+add_executable(temporary_object temporary_object.cc)
+add_executable(ambiguous_call ambiguous_call.cc)
+add_executable(obj_para_ref_argu obj_para_ref_argu.cc)
+add_executable(function_decl_const_para function_decl_const_para.cc)
+add_executable(bit_field bit_field.cc)

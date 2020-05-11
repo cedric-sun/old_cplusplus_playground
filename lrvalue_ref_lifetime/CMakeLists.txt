@@ -1,0 +1,3 @@
+add_executable(lifetime lifetime.cc)
+add_executable(value_categories value_categories.cc)
+add_executable(lvalue_2_rvalue_conversion lvalue_2_rvalue_conversion.cc)

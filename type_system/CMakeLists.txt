@@ -1,0 +1,6 @@
+add_executable(type_categories type_categories.cc)
+add_executable(type_alias type_alias.cc)
+add_executable(pointer_to_class_member pointer_to_class_member.cc)
+add_executable(literal_types literal_types.cc)
+add_executable(nullptr_t nullptr_t.cc)
+add_executable(const_hell const_hell.cc)

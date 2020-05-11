@@ -1,3 +1,7 @@
 add_executable(default_ctor default_ctor.cc)
 add_executable(deleted_default_ctor deleted_default_ctor.cc)
 add_executable(member_init member_ctor_called.cc)
+add_executable(explicit explicit.cc)
+add_executable(memory_alloc.cc memory_alloc.cc)
+add_executable(member_init_list_vs_default_member_initializer member_init_list_vs_default_member_initializer.cc)
+add_executable(copy_ctor copy_ctor.cc)
