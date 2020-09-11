@@ -1,0 +1,1 @@
+add_executable(brace_init brace_init.cc)

@@ -12,5 +12,5 @@ void foo(A a_obj) {
 }
 
 int main() {
-    foo(35);
+//    foo(35);
 }

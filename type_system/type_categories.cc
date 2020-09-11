@@ -79,14 +79,34 @@ namespace compound {
         cout << "int[] is_compound: " << std::is_compound<int[]>::value << endl;
         cout << "int[] is_array: " << std::is_array<int[]>::value << endl;
         cout << "-----------------------" << endl;
-        // TODO: is_function
+        cout << "void(int) is_compound: " << std::is_compound<void(int)>::value << endl;
+        cout << "void(int) is_function: " << std::is_function<void(int)>::value << endl;
         cout << "-----------------------" << endl;
         cout << "class A is_compound: " << std::is_compound<A>::value << endl;
+        cout << "class A is object type: " << std::is_object<A>::value << endl;
+        cout << "ref to class A is object type: " << std::is_object<A &>::value << endl;
     }
 }
+
+namespace scalar {
+    // scalar type: (possibly cv-qualified)
+    // - arithmetic
+    // - pointer
+    // - pointer to member
+    // - enumeration
+    // - std::nullptr_t type
+    struct A {int data;};
+    void Demo() {
+        cout << "nullptr_t is_scalar: "<<std::is_scalar<nullptr_t>::value << endl;
+        cout << "struct A is_scalar: "<<std::is_scalar<A>::value << endl;
+    }
+}
+
+// TODO:  is_trivial
 
 int main() {
     cout << std::boolalpha;
 //    fundamental::Demo();
-    compound::Demo();
+//    compound::Demo();
+    scalar::Demo();
 }

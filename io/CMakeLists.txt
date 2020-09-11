@@ -1,1 +1,2 @@
 add_executable(boolalpha boolalpha.cc)
+add_executable(setw_justify_fill setw_justify_fill.cc)

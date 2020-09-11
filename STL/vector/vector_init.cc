@@ -4,8 +4,13 @@
 
 #include <vector>
 #include <iostream>
+#include <memory>
 
 using namespace std;
+
+void foo() {
+    auto array_of_vec = make_unique<vector<int>>();//?
+}
 
 int main() {
     const int N = 15;
